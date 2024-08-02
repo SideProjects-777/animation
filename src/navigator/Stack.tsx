@@ -21,7 +21,7 @@ const Stack = createStackNavigator();
 export default function MyStack() {
   return (
     <NavigationContainer>
-      <Stack.Navigator  initialRouteName="ScollAnim">
+      <Stack.Navigator  initialRouteName="Main">
         <Stack.Screen name="Main" component={Main} />
         <Stack.Screen name="OpacityAnim" component={OpacityAnim} />
         <Stack.Screen name="ScrollDownAnim" component={ScrollDownAnim} />
