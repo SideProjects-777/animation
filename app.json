@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "new-animations",
+    "slug": "new-animations",
+    "version": "4.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/joystick.png",
+    "splash": {
+      "image": "./assets/cow.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "versionCode": 9,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/cow-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.device999.NewAnimations"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "17d46338-81e8-4f02-85c6-517328bb4298"
+      }
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  },
+  "react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-5981144475529351~3920567439"
+  }
+}
